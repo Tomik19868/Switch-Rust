@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+
+    <form action="">
+        <div><input type="text">
+        <label for="text" id="text2">Возвраст</label>
+    </div>
+    <div>
+        <input type="email" id="password" placeholder="Введите Email">
+        <label for="email">email</label>
+    </div>
+    <div>
+        <input type="password" id="password">
+        <label for="password">Пароль</label>
+    </div>
+    <div>
+        <input type="number" id="number" min="16" max="100">
+        <label for="number">Число</label>
+    </div>
+    <div>
+        <input type="range" id="range" min="0" max="10" step="1">
+        <label for="range">range</label>
+    </div>
+    <div>
+        <input type="date" id="date">
+        <label for="date">date</label>
+    </div>
+    <div>
+        <input type="color" id="color">
+        <label for="color">color</label>
+    </div>
+    <br>
+    <div>
+        <label for="message"></label>
+        <textarea id="message" cols="10" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="sex">Ваш пол</label>
+        <select name="" id="sex">
+            <option value="female">Woman</option>
+            <option value="male" selected>Man</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <div>
+        <label>Количество работ</label>
+        <input type="radio" name="work">1
+        <input type="radio" name="work">2
+        <input type="radio" name="work">3
+        <input type="radio" name="work">4+
+    </div>
+    <div>
+        <label>Количество работ</label>
+        <input type="checkbox" name="checkbox">1
+        <input type="checkbox" name="checkbox">2
+        <input type="checkbox" name="checkbox">3
+        <input type="checkbox" name="checkbox">4+
+    </div>
+    <input type="submit" value="Отправить">
+<button type="submit">отправить</button>
+
+</form>
+</body>
+</html>
